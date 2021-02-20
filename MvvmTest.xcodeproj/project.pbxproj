@@ -15,6 +15,10 @@
 		FA926BAC25E15C7200043A6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA926B8125E15C6F00043A6C /* ContentView.swift */; };
 		FA926BAD25E15C7200043A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA926B8225E15C7200043A6C /* Assets.xcassets */; };
 		FA926BAE25E15C7200043A6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA926B8225E15C7200043A6C /* Assets.xcassets */; };
+		FA926BC225E15DE700043A6C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA926BC125E15DE700043A6C /* MainViewModel.swift */; };
+		FA926BC325E15DE700043A6C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA926BC125E15DE700043A6C /* MainViewModel.swift */; };
+		FA926BC925E15EAD00043A6C /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA926BC825E15EAD00043A6C /* SomeClass.swift */; };
+		FA926BCA25E15EAD00043A6C /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA926BC825E15EAD00043A6C /* SomeClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		FA926BA225E15C7200043A6C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA926BA625E15C7200043A6C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FA926BA825E15C7200043A6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA926BC125E15DE700043A6C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		FA926BC825E15EAD00043A6C /* SomeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 				FA926B8025E15C6F00043A6C /* MvvmTestApp.swift */,
 				FA926B8125E15C6F00043A6C /* ContentView.swift */,
 				FA926B8225E15C7200043A6C /* Assets.xcassets */,
+				FA926BC125E15DE700043A6C /* MainViewModel.swift */,
+				FA926BC825E15EAD00043A6C /* SomeClass.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -308,8 +316,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA926BC925E15EAD00043A6C /* SomeClass.swift in Sources */,
 				FA926BAB25E15C7200043A6C /* ContentView.swift in Sources */,
 				FA926BA925E15C7200043A6C /* MvvmTestApp.swift in Sources */,
+				FA926BC225E15DE700043A6C /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +327,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA926BCA25E15EAD00043A6C /* SomeClass.swift in Sources */,
 				FA926BAC25E15C7200043A6C /* ContentView.swift in Sources */,
 				FA926BAA25E15C7200043A6C /* MvvmTestApp.swift in Sources */,
+				FA926BC325E15DE700043A6C /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
